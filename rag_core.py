@@ -29,6 +29,7 @@ def extract_text_from_pdf_bytes(pdf_bytes: bytes):
             pages.append((i + 1, text))
     return pages
 
+
 # -----------------------
 # Chunking
 # -----------------------
